@@ -12,6 +12,7 @@ class Owner
     @@all << self 
     @pets = {:fishes => [],:dogs => [], :cats => []}
   end  
+  binding.pry
   
   def self.all 
     @@all 
