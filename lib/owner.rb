@@ -5,7 +5,6 @@ class Owner
   attr_accessor :pets, :name  
   attr_reader :species 
   
- # @@counter = 0 
   @@all = []
   
   def initialize(species)
@@ -24,6 +23,9 @@ class Owner
   def self.reset_all 
     @@all.clear 
   end   
+  
+  def say_species 
+    puts ""
  #   binding.pry 
   
   
