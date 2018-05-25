@@ -9,7 +9,7 @@ class Owner
   @@all = []
   
   def self.all 
-    self.include(owner)
+    @@all <<
   end   
   
   def self.counter
