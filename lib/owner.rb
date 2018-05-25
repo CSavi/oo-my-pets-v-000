@@ -8,6 +8,11 @@ class Owner
   @@counter = 0 
   @@all = []
   
+  def initialize(owner)
+    @owner = owner
+    @@all << owner
+  end  
+  
   def self.all 
     @@all 
   end   
