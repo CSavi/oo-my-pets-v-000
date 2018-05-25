@@ -27,10 +27,7 @@ class Owner
  #   binding.pry 
   
   
-  def initialize(owner)
-    @owner = owner
-    @@all << owner
-  end   
+  
     
 
 
