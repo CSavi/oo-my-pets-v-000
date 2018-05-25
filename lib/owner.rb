@@ -8,7 +8,8 @@ class Owner
   @@counter = 0 
   @@all = []
   
-  def initialize(owner)
+  def initialize(species)
+    @species = species 
     @owner = owner
     @@all << owner
   end  
