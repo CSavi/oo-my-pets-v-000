@@ -24,7 +24,7 @@ class Owner
     @@all.clear 
   end   
   
-  def say_species(species) 
+  def say_species
     "I am a #{species}."
   end   
  #   binding.pry 
