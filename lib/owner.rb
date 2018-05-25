@@ -21,8 +21,8 @@ class Owner
     @@counter += 1 
   end 
   
-  def self.reset 
-    self.clear 
+  def self.reset_all 
+    @@all.clear 
   end   
  #   binding.pry 
   
